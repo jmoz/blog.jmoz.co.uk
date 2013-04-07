@@ -3,7 +3,7 @@ layout: post
 title: "Python vs PHP"
 date: 2012-07-11 12:00
 comments: true
-categories: [python, php]
+categories: [python, php, python vs php]
 published: false
 ---
 I'm a **PHP** developer at heart and have been professionally since around 2007.  I've dabbled in Ruby a fair few times but never stuck with it.  I'm teaching myself **Python** at the moment as a fair few colleagues have coded in it and they all have good things to say about the language.
