@@ -6,6 +6,8 @@ comments: true
 categories: [virgin media, superhub]
 published: true
 ---
+DISCLAIMER: I now (March 2013) work for Virgin Media as a contract PHP Developer.  The views below are on Virgin's Superhub service and do not reflect my views on the project I am working on (which is a great project) or any of Virgin's development.  These views still stand and I will not be censored.
+
 ## Update 9
 
 Wellsy rang again in the morning as it's been intermittent again.  Apparently if we log a complaint 7 days in a row then the contract is viable to be cancelled.
