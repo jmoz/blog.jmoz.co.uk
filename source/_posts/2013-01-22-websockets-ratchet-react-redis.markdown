@@ -22,7 +22,7 @@ The proof of concept app is running at [silex-test.jmoz.co.uk/pubsub](http://sil
 
 Below is the text from the README.
 
-# Websockets, Ratchet, Redis pubsub proof of concept
+## Websockets, Ratchet, Redis pubsub proof of concept
 
 This is a proof of concept *HTML5 websocket app* showing how **ratchet and websockets** can be used along with **Redis' pubsub** publish and subscribe.
 
