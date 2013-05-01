@@ -53,6 +53,9 @@ default_asides: [asides/recent_posts.html, asides/github.html]
 # post_asides:
 # page_asides:
 
+# disables the annoying collapsable sidebar on whitespace theme
+sidebar: 'collapse'
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
