@@ -32,7 +32,7 @@ I was most surprised by the level of conversation on HN.  Lots of positive comme
 
 Once it gained traction on HN, the post quickly spread to Twitter.  My phone started going off with people @mentioning me with a link to the post.  The original tweet that my blogging app sent out received no retweets and was hardly noticed; most of it stemmed from a HN tweet and people sharing it using their own methods.
  
-{% oembed https://twitter.com/newsycombinator/status/274529488036065280 %}
+{% tweet https://twitter.com/newsycombinator/status/274529488036065280 %}
 
 - The tweet by @newsycombinator was a Top Tweet and received 24 retweets and 83 favourites.
 - Searching for [the url](https://twitter.com/search/realtime?q=http%3A%2F%2Fblog.jmoz.co.uk%2Flearning-python-the-pragmatic-way&src=typd) on Twitter showed 78 tweets.
