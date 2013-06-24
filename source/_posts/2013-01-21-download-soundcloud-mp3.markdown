@@ -4,7 +4,7 @@ title: "Your files aren't safe on Soundcloud"
 date: 2013-01-21 12:00
 comments: true
 categories: [soundcloud, download, chrome]
-published: false
+published: true
 ---
 I use Soundcloud to listen to and download free mixes from DJs and events I'm into.  Recently I've noticed a trend where artists are putting up their EPs and tracks in full form as a preview, and provide their own download links where the user can buy the track and have the Soundcloud download disabled.  In theory this should provide a user with a taster, then they'll head to the itunes link and pay for the download.
 

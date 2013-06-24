@@ -4,7 +4,7 @@ title: "Symfony2 FOSUserBundle Role entities"
 date: 2011-12-05 12:00
 comments: true
 categories: [php, symfony2, fosuserbundle]
-published: false
+published: true
 ---
 I've been working with **FOSUserBundle Roles** recently, adding database persistence using a simple Doctrine array mapping.  We needed a better implementation where the Roles could be managed from the database and dynamically added and removed to a User through an admin interface.  I found quite a few posts on stackoverflow and the Symfony2 google group asking how best to implement **Role entities** but very few answers or solutions, and no documentation on the FOSUserBundle github page.
 

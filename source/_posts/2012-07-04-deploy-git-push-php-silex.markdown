@@ -4,7 +4,7 @@ title: "Deploy a Silex app using Git push"
 date: 2012-07-04 12:00
 comments: true
 categories: [git, silex]
-published: false
+published: true
 ---
 Up until a few days ago I used to use a small bash deployment script to deploy a few simple sites to my live box.  The process was a git archive and extract, then an rsync to the live site.  Only inspecting it recently I realised that rsync no longer sent just the changes but all of the files, I'd never noticed before as the sites were so small the deploy was over very quickly.  The rsync used to work fine before as I would deploy my current working code where the timestamps on files would match the server.  Since I started using git at home for dev, the git archive method timestamps the files with the latest commit's timestamp.  This messes up rsync.
 

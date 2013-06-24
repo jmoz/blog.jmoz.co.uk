@@ -4,7 +4,7 @@ title: "Git push to multiple remotes"
 date: 2012-10-12 12:00
 comments: true
 categories: [git]
-published: false
+published: true
 ---
 I've been in Thailand for the past month but whilst there I was working on an app and regularly committing to my local git.  The fear of getting my Mac stolen or lost prompted me to push my work to my remote vps for a backup.
 

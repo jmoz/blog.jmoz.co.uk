@@ -4,7 +4,7 @@ title: "How to find out your Ubuntu version"
 date: 2011-12-05 12:00
 comments: true
 categories: [ubuntu]
-published: false
+published: true
 ---
 To **find out your Ubuntu version** (or codename) use the `lsb_release` command which will “print distribution-specific information”:
 

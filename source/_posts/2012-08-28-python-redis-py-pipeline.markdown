@@ -4,7 +4,7 @@ title: "Improve Redis performance with pipelining"
 date: 2012-08-28 12:00
 comments: true
 categories: [python, redis]
-published: false
+published: true
 ---
 I have been playing with **Python** and **Redis** recently, specifically [redis-py](https://github.com/andymccurdy/redis-py) which is available on github and can be easily installed with `pip install redis`.
 

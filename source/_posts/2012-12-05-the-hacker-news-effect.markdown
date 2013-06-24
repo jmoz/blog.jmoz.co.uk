@@ -4,7 +4,7 @@ title: "The Hacker News effect"
 date: 2012-12-05 12:00
 comments: true
 categories: [hacker news, python, twitter]
-published: false
+published: true
 ---
 Last week I submitted a post to Hacker News which managed to make it to #5 on the front page.  The post in question, [Learning Python the pragmatic way](http://blog.jmoz.co.uk/learning-python-the-pragmatic-way), is by far the most successful post I've launched.  You can view it on HN [here](http://news.ycombinator.com/item?id=4853019).
 

@@ -4,7 +4,7 @@ title: "Nginx connect() failed while connecting to upstream"
 date: 2012-07-11 11:00
 comments: true
 categories: [nginx]
-published: false
+published: true
 ---
 I've just spent a good 30 minutes debugging my **PHP** code and **Nginx** config trying to figure out why I was getting a **HTTP/1.1 502 Bad Gateway error** in my browser and the following in my logs:
 

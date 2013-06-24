@@ -4,7 +4,7 @@ title: "Python vs PHP: String interpolation"
 date: 2012-07-11 13:00
 comments: true
 categories: [python, php, python vs php]
-published: false
+published: true
 ---
 ## String interpolation
 

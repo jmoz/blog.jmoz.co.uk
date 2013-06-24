@@ -4,7 +4,7 @@ title: "Mac terminal ssh disconnecting"
 date: 2012-07-05 12:00
 comments: true
 categories: [mac, terminal, ssh]
-published: false
+published: true
 ---
 I switched to a mac at the start of the year; prior to that I always used Linux and regularly ssh'd into remote boxes with hardly any problems and rarely any disconnects.
 

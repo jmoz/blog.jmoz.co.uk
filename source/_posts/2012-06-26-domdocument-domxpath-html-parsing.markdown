@@ -4,7 +4,7 @@ title: "Parsing HTML with DOMDocument and DOMXpath::query"
 date: 2012-06-26 12:00
 comments: true
 categories: [php, DOMDocument, DOMXpath]
-published: false
+published: true
 ---
 The other day I needed to do some **html scraping** to trim out some repeated data stuck inside nested `div`s and produce a simplified array of said data.  My first port of call was SimpleXML which I have used many times.  However this time, the son of a bitch just wouldn't work with me and kept on throwing up parsing errors.  I lost my patience with it and decided to give **`DomDocument`** and **`DOMXpath`** a go which I'd heard of but never used.
 

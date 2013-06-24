@@ -4,7 +4,7 @@ title: "Learning Python the pragmatic way"
 date: 2012-11-30 12:00
 comments: true
 categories: [flask, git, gunicorn, python, redis, supervisor]
-published: false
+published: true
 ---
 Around 5 months ago I was on a motocross bike making my way to the top of the Bokor mountain range in Cambodia.  I'd chosen to take time off as a contract PHP developer in London and travel around south east Asia - Thailand, Cambodia and Malaysia.  I spent the first half of the year there and discovered, partied, relaxed and forgot about work.  Whilst there I decided that I needed something new to learn when I arrived back in the UK; I'd recently just learnt and professionally used Symfony2 for PHP, so I decided to change things up a bit and learn either Python or iOS development.  I chose **Python**.
 

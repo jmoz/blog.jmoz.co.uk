@@ -4,7 +4,7 @@ title: "Python: Convert datetime to timestamp and back again"
 date: 2012-08-29 12:00
 comments: true
 categories: [python, datetime, timestamp]
-published: false
+published: true
 ---
 It's pretty easy to get a **datetime** object from a **timestamp** in Python.  However the same can not be said the other way around.  Just when I start to think "oh Python's pretty cool with a nice API" the further you look into the language and library you start to notice some cracks.
 

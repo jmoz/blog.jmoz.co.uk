@@ -4,7 +4,7 @@ title: "A Websockets, Ratchet, Silex and Redis pubsub implementation"
 date: 2013-01-22 12:00
 comments: true
 categories: [php, ratchet, redis, silex, websockets]
-published: false
+published: true
 ---
 I was approached by a betting/gambling development company who potentially needed a middleware building that would pull from an existing gambling web service and basically transmit to connected iPhone clients the changes from the web service.
 

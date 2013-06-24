@@ -4,7 +4,7 @@ title: "Infinite scroll featuring JQuery, Flask, Twitter Bootstrap and a cameo f
 date: 2013-01-18 12:00
 comments: true
 categories: [python, jquery, infinite scroll, flask, twitter, bootstrap, redis]
-published: false
+published: true
 ---
 The idea behind [jQuery infinite scroll](https://github.com/paulirish/infinite-scroll) is actually quite a clever one - it employs the principal of 'graceful degradation' - that is to add JavaScript and jQuery functionality to already working static HTML, so that if a user doesn't have JS enabled (which is rare nowadays), the JS enhanced functionality can still be achieved but in a less impressive, less dynamic, old school way.
 

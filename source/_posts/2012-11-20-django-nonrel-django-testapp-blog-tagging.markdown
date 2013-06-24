@@ -4,7 +4,7 @@ title: "A django-nonrel testapp blog with tagging"
 date: 2012-11-20 12:00
 comments: true
 categories: [appengine, django, django-nonrel, django-testapp, python]
-published: false
+published: true
 ---
 If you're working with **[django-nonrel](https://github.com/django-nonrel/django-nonrel)** and **appengine**, there's a **[django-testapp](https://github.com/django-nonrel/django-testapp)** barebones application you can work off as a starting point (there's no application code, just setup code and files for appengine).
 
