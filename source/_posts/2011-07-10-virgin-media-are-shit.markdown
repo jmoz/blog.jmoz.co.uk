@@ -6,7 +6,7 @@ comments: true
 categories: [virgin media, superhub]
 published: true
 ---
-DISCLAIMER: I now (March 2013) work for Virgin Media as a contract PHP Developer.  The views below are on Virgin's Superhub service and do not reflect my views on the project I am working on (which is a great project) or any of Virgin's development.  These views still stand and I will not be censored.
+DISCLAIMER: I now (March 2013) work for Virgin Media as a contract PHP Developer.  The views below are on Virgin's Superhub service and do not reflect my views on the project I am working on (which is a great project) or any of Virgin's development.
 
 ## Update 9
 
