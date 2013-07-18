@@ -7,13 +7,15 @@ categories: [php, phpunit, symfony2]
 published: true
 ---
 
-I've been given the task of **unit testing Symfony2's security layer**, which at first seems daunting, but in reality with a clever bit of PHPUnit mocking, it's actually quite simple.
+I've been given the task of **unit testing Symfony2's security layer**, which at first seems daunting, but in reality with a clever bit of **PHPUnit mocking**, it's actually quite simple.
 
 Symfony2 makes heavy use of method chaining.  In the security listener it's common to see such code as:
 
 ``` php
 <?php
-$this->securityContext->getToken()->isAuthenticated()
+if (!$this->securityContext->getToken()->isAuthenticated()) {
+    throw new UnauthorizedHttpException('Need an authenticated token');
+}
 ```
 
 To mock this you might think to do something like so:
@@ -39,7 +41,7 @@ $this->assertTrue($securityContext->getToken()->isAuthenticated());
 
 This is valid and should pass.
 
-But there's a better way to do this without having to create the stub `UserToken` object.  We can add a method to the mocked `SecurityContext` - `isAuthenticated()` which will return `true`.  We then tell the call to `getToken` to return an instance of it's `self` - the mocked `SecurityContext` which has our stub method `isAuthenticated()`:
+But there's a better way to do this without having to create the stub `UserToken` object.  We can add a method to the mocked `SecurityContext` - `isAuthenticated()` which will return `true`.  We then tell the call to `getToken()` to return an instance of it's `self` - the mocked `SecurityContext` which has our stub method `isAuthenticated()`:
 
 ``` php
 <?php
