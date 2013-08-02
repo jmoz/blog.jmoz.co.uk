@@ -32,7 +32,7 @@ Interactions are up also - some good some pointless.  I get users retweeting and
 
 {% img http://i.imgur.com/qe9dsmw.png %}
 
-I've noticed a lot of new related followers, e.g. developers and programmers, so all in all the script has been pretty useful for me.  The reason this has worked is that I've selected my keywords and hashtags accordingly - emulating human behaviour - rather than blanket spamming people.  I'm looking to build on it and create a simple web app others can sign up and use also.
+I've noticed a lot of new related followers, e.g. developers and programmers, so all in all the script has been pretty useful for me.  The reason this has worked is that I've selected my keywords and hashtags accordingly, rather than blanket spamming random unrelated tweets.  I'm looking to build on it and create a simple web app others can sign up and use also.
 
 You need to be careful with this, as if not used honestly but in a spammy manner, [there could be consequences](http://socialtimes.com/favoriting-tweets-bad-twitter-strategy_b131137); however, you could eliminate the build-up of favourites by writing another script that loops over your favourites list and simply calls the API's `favorites.destroy`.
 
