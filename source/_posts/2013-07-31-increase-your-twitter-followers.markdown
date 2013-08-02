@@ -97,7 +97,7 @@ def search_and_fav(q, count=100, max_id=None):
     print "First id %s last id %s" % (first_id, last_id)
 ```
 
-For `favorites_create()` we try to catch the exception that is thrown when you favourite an already favourited tweet (this happens a lot for retweets).  For `search_and_fav()` we store some useful tweet id's that can be used for the `max_id` param and also count how many successful favourites we create.
+For `favorites_create()` we try to catch the exception that is thrown when you favourite an already favourited tweet (this happens a lot for retweets).  For `search_and_fav()` we store some useful tweet id's that could be used for the `max_id` param and also count how many successful favourites we create.
 
 Here's a gist of the full code:
 
