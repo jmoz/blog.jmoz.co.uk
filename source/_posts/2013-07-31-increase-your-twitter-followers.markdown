@@ -52,7 +52,14 @@ CONSUMER_SECRET = 'bat'
 t = Twitter(auth=OAuth(OAUTH_TOKEN, OAUTH_SECRET, CONSUMER_KEY, CONSUMER_SECRET))
 ```
 
-And we create a function that hits the search endpoint.  Here's an example of some of the data you can get.  The tweets are all under the key 'statuses' and contain the important tweet 'id'.
+And we create a function that hits the search endpoint.  
+
+``` python
+def search_tweets(q, count=100, max_id=None):
+    return t.search.tweets(q=q, result_type='recent', count=count, lang="en", max_id=max_id)
+```
+
+Here's an example of some of the data you can get.  The tweets are all under the key 'statuses' and contain the important tweet 'id'.
 
 ``` python
 [(t['text'], t['id']) for t in example.search_tweets('web development', 5)['statuses']]
