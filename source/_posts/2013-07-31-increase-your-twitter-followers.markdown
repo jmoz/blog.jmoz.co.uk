@@ -115,5 +115,13 @@ And you can run it like so:
 ``` python
 import twitter_favouriter
 
-twitter_favouriter.search_and_fav('#foo', 10)
+twitter_favouriter.search_and_fav('web development', 5)
+
+Favorited: Attorney Web Design - Foo Web Development http://t.co/mpO18BBsHB, 363739308114460672
+Favorited: Full stack web development http://t.co/nkLYoufo7W (via Instapaper), 363738790067568640
+Favorited: Complete #Mobile #Web #Development #Solutions &amp; #Optimizations http://t.co/y7U5i6ptsR, 363738298411253760
+Favorited: Also, I will never recommend any of my web development clients to use mediatemple. @mediatemple, 363737857111764992
+Favorited: 10 Best Joomla Development Companies Announcd by bestwebdesignagenciescom 4 July 2013 http://t.co/HFSZ1QcBV8 #development #JmExperts #web, 363737532694925312
+Favorited total: 5 of 5
+First id 363739308114460672 last id 363737532694925312
 ```
