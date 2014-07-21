@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Organically increase your followers with the Twitter API and a little Python"
+title: "Programmatically increase your followers with the Twitter API and a little Python"
 date: 2013-08-02 12:00
 comments: true
 categories: [python, twitter api]
 published: true
 ---
-There are many reasons why you may want to *increase your Twitter followers*: for status, engagement and for more reach are a few that come to mind.  I'm certainly in the latter - more reach == more potential hits to my blog == web domination.
+There are many reasons why you may want to *increase your Twitter followers*: for engagement, status and for greater reach are a few that come to mind.  I'm certainly in the latter - more reach == more potential hits to my blog.
 
 If you're in the status camp you'll most likely have gone down the route of paying for followers.  You know the drill - pay x amount of dollars for x amount of followers.  The majority, if not all of these followers are trash accounts; accounts solely created to follow others for no other reason than to increase their follower count.  They won't provide traffic to your blog or engage with you.
 
@@ -21,7 +21,7 @@ We're going to use a mix of simple **Python** and the **Twitter API**.
 - Search for tweets by related users or content, e.g. tweets containing 'James Morris' or tweets with the hashtag '#php'.
 - Favourite the tweets.
 - User gets a notification that their tweet has been favourited.  Our timeline stays the same (unlike retweets, favourites don't get pushed to our timeline).
-- User checks out profile of the favouriter and if they see something they like, hopefully we get a new organic follower!
+- User checks out profile of the favouriter and if they see something they like, hopefully we get a new follower!
 - Rinse and repeat for more followers.
 
 ## The results
@@ -125,3 +125,5 @@ Favorited: 10 Best Joomla Development Companies Announcd by bestwebdesignagencie
 Favorited total: 5 of 5
 First id 363739308114460672 last id 363737532694925312
 ```
+
+EDIT: The title of this post has been changed from **Organically increase your followers with the Twitter API and a little Python**.
